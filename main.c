@@ -10,7 +10,7 @@ float aux;
 }
 int main(){
 
-  DDRB=0xFF;    //Salida en OC1A (PB1)
+  DDRC=0xFF;    //Salida en OC1A (PB1)
 
   ADMUX=0x00;   //Selecciona ADC0 y Vref en AREF
   ADCSRA=0xCB;  //Habilita ADV con interrupción, inicia
